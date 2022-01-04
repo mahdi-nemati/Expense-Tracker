@@ -70,7 +70,7 @@ const TransActionComponent = ({ transaction }) => {
       {filteredTrans.length ? (
         filteredTrans.map((trans) => {
           return (
-            <section className="resultCon">
+            <section key={trans.id} className="resultCon">
               <div key={trans.id} className="result">
                 <p>
                   <span>{trans.desc}</span>
