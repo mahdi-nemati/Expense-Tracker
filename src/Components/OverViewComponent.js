@@ -1,4 +1,4 @@
-import { useState } from "react/cjs/react.development";
+import { useState } from "react";
 import TransActionForm from "./TransActionForm";
 
 const OverViewComponent = ({ income, expense, addTransAction }) => {
